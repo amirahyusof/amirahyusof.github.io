@@ -1,12 +1,19 @@
 import React from 'react';
+import styles from '../../src/css/Hero.module.css'
 
 function Hero(){
     return(
-        <div className='hero--section'>
-            <h1 className='hero--header'>Hi, I'm Amirah</h1>
-            <p><span className='hero--title'>I'm front-end developer</span></p>
-            <p>Reach me out if you'd like to want to know more</p>
-            <button type='submit'className='hero--button'>Resume</button>
+        <div className={styles.heroSection}>
+            <div>
+            <h1 className={styles.heroHeader}>Hi, I'm Amirah</h1>
+            <h2><span className={styles.heroTitle}>I'm front-end developer</span></h2>
+            <p className={styles.heroIntro}>Reach me out if you'd like to want to know more</p>
+            <button type='submit'className={styles.resumeButton}>Resume</button>
+            </div>
+            <div>
+                <img src='' />
+            </div>
+            
         </div>
     )
 }

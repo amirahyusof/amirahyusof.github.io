@@ -1,0 +1,27 @@
+.heroSection {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+}
+
+.heroHeader {
+    font-size: 45px;
+}
+
+.heroTitle {
+    font-size: 35px;
+}
+
+.heroIntro {
+    font-size: 25px;
+}
+
+.resumeButton {
+    position: relative;
+    width: 94px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
