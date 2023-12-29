@@ -5,6 +5,7 @@
     --color-secondary: #765827 ;
     --color-dark: #65451F;
     --color-bg: #C8AE7D;
+    --color-gradient: linear-gradient(90deg, #656565, #EAC696, #765827)
 
     /*fonts*/
     --text-lato: "Lato"
