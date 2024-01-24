@@ -221,14 +221,14 @@ p {
 .home--info p {
     margin-bottom: 20px;
 }
-
+ .hero--img {
+    grid-column: 3/4;
+    grid-row: 1;
+ }
 
 .hero--img img{
-    width: 350px;
+    width: 250px;
     border-radius: 50%;
-    grid-column: 1/6;
-    grid-row: 1;
-
     animation-name: floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;
@@ -254,15 +254,15 @@ p {
     padding: 0px 20px;
     margin-top: 40px;
     margin-left: 25px;
-    max-width: 400px;
-    height: 1300px;
+    max-width: 300px;
+    height: 1450px;
     background:#1b121262;
     border-radius: 15px;
     overflow: hidden;
 }
 
 .about--character img {
-    width: 350px;
+    width: 250px;
     margin-left: 25px;
     border-radius: 30px;
     grid-column: 1/6;
@@ -284,7 +284,7 @@ p {
     padding: 0px 20px;
     margin-top: 40px;
     margin-left: 25px;
-    max-width: 400px;
+    max-width: 300px;
     height: 450px;
     background:#1b121262;
     border-radius: 15px;
@@ -292,7 +292,7 @@ p {
 }
 
 .skills li {
-    margin-left: 40px;
+    margin-left: 20px;
     margin-bottom: 30px;
 }
 
@@ -330,8 +330,8 @@ p {
     padding: 0px 20px;
     margin-top: 40px;
     margin-left: 25px;
-    max-width: 400px;
-    height: 800px;
+    max-width: 300px;
+    height: 850px;
     background:#1b121262;
     border-radius: 15px;
     overflow: hidden;
@@ -362,7 +362,7 @@ p {
 }
 
 .projects a img {
-    width: 300px;
+    width: 250px;
     height: 150px;
     border-radius: 10px;
 }
@@ -408,14 +408,24 @@ p {
 
 /*small tablet styles*/
 @media screen and (min-width: 620px){
+    #about, #skills, #projects {
+        margin-left: 35px;
+    }
+
     .home--info {
-        grid-column: 1/7;
+        grid-column: 1/8;
         text-align: justify;
+        margin-top: 20px;
     }
     
     
-    .hero--img img{
+    .hero--img {
         margin-left: 60px;
+        grid-column: 3/4;
+    }
+
+    .hero--img img {
+        width: 350px;
     }
 
     #about {
@@ -423,13 +433,18 @@ p {
         height: 100%;
     }
     
+    .about--character {
+        grid-column: 2/4;
+    }
+
     .about--character img {
         margin-left: 85px;
+        width: 300px;
     }
     
     .about--me {
-        grid-column: 1/7;
-        margin-left: 30px;
+        grid-column: 1/9;
+        margin: 0 10px;
     }
 
     #skills {
