@@ -654,7 +654,7 @@ p {
 /*desktop styles*/
 @media screen and (min-width: 1200px){
     body {
-        font-size: 20px;
+        font-size: 25px;
     }
 
     section {
@@ -667,9 +667,9 @@ p {
     }
 
     .hero--img {
-        grid-column: 6/8;
+        grid-column: 8/9;
+        margin: 0 60%;
     }
-
 
     #home, #about, #skills, #projects {
         padding: 0 25px;
