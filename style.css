@@ -405,6 +405,36 @@ p {
     grid-row: 2;
 }
 
+#scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--fourth);
+    color: white;
+    padding: 10px;
+    border-radius: 100%;
+    cursor: pointer;
+    display: none; /* Initially hide the arrow */
+}
+
+#scroll-to-top:hover {
+    background-color: var(--third);
+}
+
+#scroll-to-top i {
+    font-size: 20px;
+}
+
+.site-nav .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #251b10;
+    z-index: 1000;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
 
 /*small tablet styles*/
 @media screen and (min-width: 620px){
