@@ -447,7 +447,6 @@ p {
         margin-top: 20px;
     }
     
-    
     .hero--img {
         margin-left: 60px;
         grid-column: 3/4;
@@ -660,9 +659,9 @@ p {
         margin-bottom: 8%;
     }
 
-    
-    .site-nav ul {
-        margin-left: 40%;
+    .site-nav h1 {
+        grid-column: 1/2;
+        margin-left: -180px;
     }
 
     .hero--img {
