@@ -88,7 +88,7 @@ body {
     background-color: var(--fourth);
     border-radius: 25px;
     transition-property: transform;
-    transition: all 4.0s ease-in-out;
+    transition: width  4.0s ease-in-out;
 }
 
 .projects a:hover {
@@ -126,7 +126,7 @@ body {
 }
 
 #scroll-to-top i {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .site-nav .sticky {
@@ -325,8 +325,8 @@ p {
     margin-bottom: 30px;
 }
 
-.skills li div {
-    margin-left:25px ;
+.skills li .skill--label {
+    margin-left:18px;
     color: white;
 
 }
@@ -410,7 +410,8 @@ p {
 
 .contact a{
     align-items: center;
-    margin-left: 50px;
+    margin-left: 30px;
+    padding: 0 10px;
     margin-bottom: 10px;
 }
 
@@ -495,17 +496,14 @@ p {
         margin-left: 70px;
     }
 
-    .contact {
-        grid-column: 1/ span 8;
-        grid-gap: 20px;
+    .contact a {
+        margin-left: 60px;
     }
 
     .contact .copyright {
         grid-column: 1/9;
         grid-row: 2;
     }
-    
-
 }
 
 /*larger tablet & laptop styles*/
@@ -646,6 +644,13 @@ p {
         display: block;
         text-align: justify;
         font-size: 16px;
+    }
+
+    .contact a {
+        grid-column: 1/ span 8;
+        margin-left: 85%;
+        font-size: 40px;
+        padding: 0 5px;
     }
 }
 
