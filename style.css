@@ -662,7 +662,7 @@ p {
 /*desktop styles*/
 @media screen and (min-width: 1200px){
     body {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     section {
@@ -672,6 +672,10 @@ p {
     .site-nav h1 {
         grid-column: 1/2;
         margin-left: -180px;
+    }
+
+    .home--info {
+        grid-column: 3/8;
     }
 
     .hero--img {
@@ -686,6 +690,10 @@ p {
     #home {
         margin-top: 5%;
         margin-bottom: 10%;
+    }
+
+    .contact h2 p {
+        font-size: 18px;
     }
     
     
