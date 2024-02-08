@@ -249,7 +249,6 @@ p {
 
 .home--info h1 {
     margin-top: -20px;
-    
 }
 
 .home--info p {
@@ -290,7 +289,7 @@ p {
     margin-top: 40px;
     margin-left: 22px;
     max-width: 300px;
-    height: 1450px;
+    height: 1750px;
     background:#1b121262;
     border-radius: 15px;
     overflow: hidden;
@@ -366,7 +365,7 @@ p {
     margin-top: 40px;
     margin-left: 22px;
     max-width: 300px;
-    height: 850px;
+    height: 900px;
     background:#1b121262;
     border-radius: 15px;
     overflow: hidden;
