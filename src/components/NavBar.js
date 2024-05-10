@@ -5,7 +5,6 @@ function NavBar(){
     
     return(
         <nav className={styles.navbar}>
-          <a className={styles.title} href="/">AmirahYusof</a>
           <div className ={styles.menu}>
             <ul className={styles.menuItems}>
               <li><a href="#about">About</a></li>
