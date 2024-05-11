@@ -1,16 +1,20 @@
 import React from "react"
-import styles from "../../src/css/Navbar.module.css"
 
 function NavBar(){
     
     return(
-        <nav className={styles.navbar}>
-          <div className ={styles.menu}>
-            <ul className={styles.menuItems}>
-              <li><a href="#about">About</a></li>
-              <li><a href="#skills">Skills</a></li>
-              <li><a href="#projects">Projects</a></li>
-              <li><a href="#contact">Contact Me</a></li>
+        <nav className="w-full flex items-center justify-center">
+          <div className ="my-6 bg-[#C8AE7D] h-10 p-2 rounded text-xl text-[#65451F]">
+            <ul className="flex">
+              <li className="mx-6 underline underline-offset-4">
+                <a href="#about">About</a>
+              </li>
+              <li className="mr-6 underline underline-offset-4">
+                <a href="#projects">Projects</a>
+              </li>
+              <li className="mr-6 underline underline-offset-4">
+                <a href="#contact">Contact Me</a>
+              </li>
             </ul>
           </div>
         </nav>
