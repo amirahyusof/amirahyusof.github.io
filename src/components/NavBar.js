@@ -1,5 +1,5 @@
 import React from "react"
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { Routes, Route, Link } from "react-router-dom";
 import Hero from "./Hero";
 import About from './About';
 import Projects from './Projects';
@@ -7,34 +7,35 @@ import Contact from './Contact';
 
 function NavBar(){
     return(
-      <BrowserRouter basename="/">
+      <div>
         <nav className="w-full flex items-center justify-center">
-          <div className ="h-10 p-2 rounded text-xl text-white backdrop-opacity-100">
-            <ul className="flex">
-            <li className="mx-6 mr-[100px]">
+          <div className ="h-14 p-2 rounded sm:mt-4 text-white bg-[#765827] bg-opacity-25 backdrop-filter backdrop-blur-md">
+            <ul className="flex sm:text-lg my-2">
+            <li className="mx-6  mr-[60px] sm:mr-[100px]">
                 <Link to="/">Amirah Yusof</Link>
               </li>
-              <li className="mr-6 underline hover:underline-offset-4">
+              <li className="mr-2 sm:mr-6  underline hover:underline-offset-4">
                 <Link to="/about">About</Link>
               </li>
-              <li className="mr-6 underline hover:underline-offset-4">
+              <li className="mr-2 sm:mr-6 underline hover:underline-offset-4">
                 <Link to="/projects">Projects</Link>
               </li>
-              <li className="mr-6 ">
+              <li className="mr-2 sm:mr-6 ">
                 <Link to="/contact">Contact</Link>
               </li>
             </ul>
           </div>
-        </nav>
+      </nav>
 
-        <Routes>
-          <Route exact path="/portfolio_amirahyusof" element={<Hero />} />
+      <Routes>
+          <Route path="/" element={<Hero />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </BrowserRouter>
-        
+      </Routes>
+
+      </div>
+      
         );
 }
 
