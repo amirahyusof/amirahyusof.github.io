@@ -23,7 +23,7 @@ function Project(){
                                 <a href="https://amirahyusof.github.io/coffee-website/" 
                                    target="_blank" className="hover:text-[#65451F]"><FaLink size={25} /></a>
                             </div>
-                            <h2 className="text-lg">EspressoVista</h2>
+                            <h2 className="text-lg">Coffee Static Page</h2>
                             <div className="text-center justify-center flex mt-6 text-[#65451F] font-bold">
                                 <li className="mr-2">HTML</li>
                                 <li className="mr-2">CSS</li>
