@@ -54,12 +54,12 @@ function Project(){
                     
                     <a className="w-[300px] sm:w-[500px] h-[180px] md:w-[400px] md:h-[220px] p-2 mr-2
                                    cursor-pointer border-[#765827] rounded-lg bg-gradient-to-r from-[#C8AE7D] to-[#765827] hover:bg-gradient-to-l"
-                                   href="" target="_blank">
+                                   href="https://amirahyusof.github.io/FireUpYourself/" target="_blank">
                         <div className="text-center">
                             <div className="flex justify-end my-4">
                                 <a href="https://github.com/amirahyusof/FireUpYourself" 
                                    className="mr-4 hover:text-[#65451F]" target="_blank"><FiGithub size={25} /></a>
-                                <a href="" 
+                                <a href="https://amirahyusof.github.io/FireUpYourself/" 
                                    className="hover:text-[#65451F]" target="_blank"><FaLink size={25} /></a>
                             </div>
                             <h2 className="text-lg">Motivation App</h2>
@@ -74,12 +74,12 @@ function Project(){
                     
                     <a className="w-[300px] sm:w-[500px] h-[180px] md:w-[400px] md:h-[220px] p-2 mr-2
                                   cursor-pointer border-[#765827] rounded-lg bg-gradient-to-r from-[#C8AE7D] to-[#765827] hover:bg-gradient-to-l"
-                                  href="" target="_blank">
+                                  href="https://amirahyusof.github.io/tracking_job-application/" target="_blank">
                         <div className="text-center">
                             <div className="flex justify-end my-4">
                                 <a href="https://github.com/amirahyusof/tracking_job-application" 
                                    className="mr-4 hover:text-[#65451F]" target="_blank"><FiGithub size={25} /></a>
-                                <a href="" 
+                                <a href="https://amirahyusof.github.io/tracking_job-application/" 
                                    className="hover:text-[#65451F]" target="_blank"><FaLink size={25} /></a>
                             </div>
                             <h2 className="text-lg">Tracking Job Application</h2>
@@ -88,7 +88,6 @@ function Project(){
                                 <li className="mr-2">Tailwind CSS</li>
                                 <li className="mr-2">JavaScript</li>
                                 <li className="mr-2">React</li>
-                                <li className="mr-2">Netlify</li>
                             </div>
                         </div>
                     </a>
