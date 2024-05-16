@@ -18,7 +18,7 @@ function Hero(){
                 <p className='text-xl'>Currently, I'm interested in learning more into Firebase, PHP and MySQL, documentation and also web app. 
                 Feel free to reach out, I'd love to connect!</p>
                 <button className='mt-4 mr-6 text-lg sm:text-xl font-semibold underline hover:underline-offset-4'>
-                    <a href="https://drive.google.com/file/d/1e6kUHCJb6nSHRetzbMdLPLmOqgJ7-d3R/view?usp=sharing" class="button">
+                    <a href="https://drive.google.com/file/d/182vBl9a1Lvqg0u1n72BXbsFdU4zXuGt8/view?usp=sharing" class="button">
                     Amirah's Resume
                     </a>
                 </button>
