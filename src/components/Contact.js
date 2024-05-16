@@ -7,8 +7,8 @@ import { FaLinkedin } from "react-icons/fa";
 function Contact(){
     return(
         <div className="h-full-screen text-[#65451F]" id="contact">
-            <img src={contactSection} className="mx-auto justify-center rounded-xl mt-[-150px] w-full md:w-[900px] h-[300px]" />
-            <img src={contacIcon} className="w-[150px] rounded-full mx-auto mt-[-80px]" />
+            <img src={contactSection} className="mx-auto justify-center rounded-xl mt-[-150px] w-full md:w-[900px] h-[300px]" alt="" />
+            <img src={contacIcon} className="w-[150px] rounded-full mx-auto mt-[-80px]" alt="" />
             <div className="px-4 sm:w-[550px] md:w-[850px] mb-[178px] mx-auto justify-center">
                 <h1 className="text-2xl mb-2 font-bold">Contact</h1>
                 <p className="text-lg">If you'd like to get in touch for opportunities or simply to chat, 

@@ -7,8 +7,8 @@ import { FaLink } from "react-icons/fa6";
 function Project(){
     return(
         <div className="h-full-screen text-[#65451F]" id="projects">
-            <img src={iconSection} className="mx-auto justify-center rounded-xl mt-[-150px] w-full md:w-[900px] h-[300px]" />
-            <img src={icon} className="w-[150px] border-[#65451F] rounded-full mx-auto mt-[-80px]" />
+            <img src={iconSection} className="mx-auto justify-center rounded-xl mt-[-150px] w-full md:w-[900px] h-[300px]" alt="" />
+            <img src={icon} className="w-[150px] border-[#65451F] rounded-full mx-auto mt-[-80px]" alt="" />
             <div className="px-5 sm:w-[550px] md:w-[600px] lg:w-[900px] mb-8 mx-auto justify-center">
                 <h1 className="text-2xl mb-4 font-bold">Personal Project</h1>
                 <div className="px-4 sm:px-0 grid md:grid-cols-2 gap-10 md:gap-8 list-none text-white">
