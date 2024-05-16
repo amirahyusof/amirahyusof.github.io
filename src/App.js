@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <Router basename="/portfolio_amirahyusof">
+    <Router basename="/">
       <div>
        <NavBar />
       </div>

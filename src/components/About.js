@@ -5,8 +5,8 @@ import aboutImage from './image/character-image-about.png';
 function About(){
     return(
         <div className="h-full-screen text-[#65451F]" id="about">
-            <img src={aboutSection} className="mx-auto justify-center rounded-xl mt-[-150px] w-full md:w-[900px] h-[300px]" /> 
-            <img src={aboutImage} className="w-[150px] rounded-full mx-auto mt-[-80px]" />
+            <img src={aboutSection} className="mx-auto justify-center rounded-xl mt-[-150px] w-full md:w-[900px] h-[300px]" alt=""/> 
+            <img src={aboutImage} className="w-[150px] rounded-full mx-auto mt-[-80px]"  alt=""/>
             <div className="px-4 md:w-[550px] lg:w-[850px] mb-8 mx-auto justify-center text-lg">
                 <h1 className="text-2xl font-bold">About Me</h1>
                 <p className="my-4 text-justify">As a devoted mom to two children and a passionate front-end developer, 
