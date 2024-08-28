@@ -9,7 +9,7 @@ function Project(){
         <div className="h-full-screen text-[#65451F]" id="projects">
             <img src={iconSection} className="mx-auto justify-center rounded-xl mt-[-150px] w-full md:w-[900px] h-[300px]" alt="" />
             <img src={icon} className="w-[150px] border-[#65451F] rounded-full mx-auto mt-[-80px]" alt="" />
-            <div className="sm:w-[550px] md:w-full lg:w-full mb-8 mx-auto ml-4 sm:mr-20 md:ml-10 justify-center">
+            <div className="sm:w-[550px] md:w-full mb-8 ml-20 sm:ml-32 md:ml-10 mx-auto justify-center">
                 <h1 className="text-2xl mb-4 font-bold">Personal Project</h1>
                 <div className="px-4 sm:px-0 grid md:grid-cols-3 gap-10 md:gap-8 list-none text-white">
                     
