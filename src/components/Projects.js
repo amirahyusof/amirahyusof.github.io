@@ -9,9 +9,9 @@ function Project(){
         <div className="h-full-screen text-[#65451F]" id="projects">
             <img src={iconSection} className="mx-auto justify-center rounded-xl mt-[-150px] w-full md:w-[900px] h-[300px]" alt="" />
             <img src={icon} className="w-[150px] border-[#65451F] rounded-full mx-auto mt-[-80px]" alt="" />
-            <div className="px-5 sm:w-[550px] md:w-[600px] lg:w-[900px] mb-8 mx-auto justify-center">
+            <div className="sm:w-[550px] md:w-full lg:w-full mb-8 mx-auto ml-4 sm:mr-20 md:ml-10 justify-center">
                 <h1 className="text-2xl mb-4 font-bold">Personal Project</h1>
-                <div className="px-4 sm:px-0 grid md:grid-cols-2 gap-10 md:gap-8 list-none text-white">
+                <div className="px-4 sm:px-0 grid md:grid-cols-3 gap-10 md:gap-8 list-none text-white">
                     
                     <a className=" w-[300px] sm:w-[500px] h-[180px] md:w-[400px] md:h-[220px] p-2 mr-2 
                                   cursor-pointer border-[#765827] rounded-lg bg-gradient-to-r from-[#C8AE7D] to-[#765827] hover:bg-gradient-to-l"
@@ -32,7 +32,7 @@ function Project(){
                         </div>
                     </a>
                     
-                    <a className="w-[300px]  sm:w-[500px] h-[180px] md:w-[400px] md:h-[220px] p-2 mr-2
+                    <a className="w-[300px] sm:w-[500px] h-[180px] md:w-[400px] md:h-[220px] p-2 mr-2
                                    cursor-pointer border-[#765827] rounded-lg bg-gradient-to-r from-[#C8AE7D] to-[#765827] hover:bg-gradient-to-l"
                                    href="https://swiftfixpro.netlify.app/" target="_blank" rel="noreferrer">
                         <div className="text-center">
@@ -88,6 +88,43 @@ function Project(){
                                 <li className="mr-2">Tailwind CSS</li>
                                 <li className="mr-2">JavaScript</li>
                                 <li className="mr-2">React</li>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a className="w-[300px] sm:w-[500px] h-[180px] md:w-[400px] md:h-[220px] p-2 mr-2
+                                  cursor-pointer border-[#765827] rounded-lg bg-gradient-to-r from-[#C8AE7D] to-[#765827] hover:bg-gradient-to-l"
+                                  href="https://cleocafecatering.vercel.app/" target="_blank" rel="noreferrer">
+                        <div className="text-center">
+                            <div className="flex justify-end my-4">
+                                <a href="https://cleocafecatering.vercel.app/" 
+                                   className="hover:text-[#65451F]" target="_blank" rel="noreferrer"><FaLink size={25} />
+                                </a>
+                            </div>
+                            <h2 className="sm:text-lg">Cleo Cafe & Catering's Landing Page</h2>
+                            <div className="text-center justify-center flex mt-6 text-[#65451F] font-semibold">
+                                <li className="mr-2">Nextjs</li>
+                                <li className="mr-2">Tailwind CSS</li>
+                                <li className="mr-2">JavaScript</li>
+                                <li className="mr-2">Vercel</li>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a className="w-[300px] sm:w-[500px] h-[190px] md:w-[400px] md:h-[220px] p-2 mr-2
+                                  cursor-pointer border-[#765827] rounded-lg bg-gradient-to-r from-[#C8AE7D] to-[#765827] hover:bg-gradient-to-l"
+                                  href="https://drive.google.com/drive/folders/1x38453t30b6oAx3DwIfVYMr86Qdu46Vs?usp=sharing" target="_blank" rel="noreferrer">
+                        <div className="text-center">
+                            <div className="flex justify-end my-4">
+                                <a href="https://drive.google.com/drive/folders/1x38453t30b6oAx3DwIfVYMr86Qdu46Vs?usp=sharing" 
+                                   className="hover:text-[#65451F]" target="_blank" rel="noreferrer"><FaLink size={25} />
+                                </a>
+                            </div>
+                            <h2 className="sm:text-lg">Future of Work - Mereka Program</h2>
+                            <p>List of complete work or task during Phase 2 </p>
+                            <div className="text-center justify-center flex mt-6 text-[#65451F] font-semibold">
+                                <li className="mr-2">Canva</li>
+                                <li className="mr-2">Figma</li>
                             </div>
                         </div>
                     </a>
