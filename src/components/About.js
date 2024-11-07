@@ -26,9 +26,11 @@ function About(){
                         <li className="w-[60px] p-2 mr-2 border-[#765827] rounded-lg bg-[#65451F] text-center">HTML</li>
                         <li className="w-[60px] p-2 mr-2 border-[#765827] rounded-lg bg-[#65451F] text-center">CSS</li>
                         <li className="w-[100px] p-2 mr-2 border-[#765827] rounded-lg bg-[#65451F] text-center">JavaScript</li>
-                        <li className="w-[60px] p-2 mr-2 border-[#765827] rounded-lg bg-[#65451F] text-center">React</li>
+                        <li className="w-[60px] p-2 mr-2 border-[#765827] rounded-lg bg-[#65451F] text-center">ReactJs</li>
                         <li className="w-[120px] p-2 mr-2 border-[#765827] rounded-lg bg-[#65451F] text-center">Tailwind CSS</li>
                         <li className="w-[100px] p-2 mr-2 border-[#765827] rounded-lg bg-[#65451F] text-center">Bootstrap</li>
+                        <li className="w-[60px] p-2 mr-2 border-[#765827] rounded-lg bg-[#65451F] text-center">Figma</li>
+                        <li className="w-[60px] p-2 mr-2 border-[#765827] rounded-lg bg-[#65451F] text-center">NextJs</li>
                         <li className="w-[60px] p-2 mr-2 border-[#765827] rounded-lg bg-[#65451F] text-center">Canva</li>
                 </div>
             </div>
