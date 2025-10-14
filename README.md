@@ -124,7 +124,7 @@ GitHub: @amirahyusof
 
 LinkedIn: linkedin.com/in/amirahyusof
 
-Email: yourname@email.com
+Email: amirahezzamieyusof@gmail.com
 
 ---
 
