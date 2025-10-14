@@ -22,24 +22,24 @@ Currently, I’m working with:
 
 ## 💻 Featured Projects
 
-### 🧠 SparkArise  
-A motivational web app delivering daily uplifting quotes and reminders to inspire positivity.  
-**Highlights:** Quote API integration, dynamic rendering, smooth UI transitions.  
-**Stack:** Next.js, TypeScript, TailwindCSS
+### 🧸 Kinder Tracker  
+A lightweight app to help parents or educators track children’s activities and milestones.  
+**Highlights:** Data tracking, clean UI, and mobile-first design for daily use.  
+**Stack:** Next.js, TypeScript, TailwindCSS  
 
 ---
 
-### 🌿 GardenOfStars  
-A productivity app inspired by nature — rewards consistency and mindfulness.  
-**Highlights:** Local storage management, interactive UI, gamified progress tracking.  
-**Stack:** React, JavaScript, Framer Motion
+### ⚔️ Demon Slayer Quote  
+An anime-inspired quote app showcasing modern UI design and micro-interactions — a playful, personality-led project.  
+**Highlights:** Clean, component-driven UI using shadcn/ui, responsive design, and playful animations.  
+**Stack:** React, TypeScript, TailwindCSS, shadcn/ui
 
 ---
 
-### 💊 Medicine Reminder PWA  
-A Progressive Web App for daily medication tracking — works even offline.  
-**Highlights:** PWA setup, push notifications, responsive layout.  
-**Stack:** TypeScript, TailwindCSS, Service Workers
+### ☕ CoffitMe  
+An interactive coffee recommendation web app that matches your mood and personality to the perfect brew.  
+**Highlights:** Personality-driven recommendation flow, interactive UI, mood mapping.  
+**Stack:** TypeScript, React, TailwindCSS
 
 ---
 
