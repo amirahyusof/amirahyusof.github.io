@@ -1,21 +1,5 @@
 import React, { useState } from 'react';
-import { 
-  Github, 
-  Linkedin, 
-  Mail, 
-  ExternalLink, 
-  Code2, 
-  Sparkles, 
-  Heart, 
-  Calendar, 
-  Plane, 
-  Flower2, 
-  ArrowRight, 
-  Download, 
-  Menu, 
-  X, 
-  Coffee
-} from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import AnimatedBackground from './components/animatedBackground';
 import Home from './components/Home';
 import About from './components/About';
